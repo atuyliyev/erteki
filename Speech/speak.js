@@ -233,7 +233,7 @@ function preload(){
 					rect(offsetX, offsetY, 300, 300);
 					drawWord(foundWord, offsetX, offsetY);
 					offsetX += 300;
-					if(offsetX > (windowWidth-301)){
+					if(offsetX > 600){
 						offsetY+=300;
 						offsetX =0;
 

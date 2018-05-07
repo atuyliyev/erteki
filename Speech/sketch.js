@@ -1,4 +1,4 @@
-//This sketch was written by Leon Eckert and Nouf Aljowaysir
+//This sketch was written with kind help from Leon Eckert and Nouf Aljowaysir
 
 let doodles; 
 
