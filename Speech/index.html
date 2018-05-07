@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script> -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>		
+		<script src="p5.speech.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
+		
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<div class="header">
+		<div id="greeting" class="greeting">
+			<div class="greeting__headline">
+				<h2>Hi, what's your name?</h2>
+			</div>
+			<form class="greeting__form" id="greeting-form">
+				<input type="text" name="user-name" id="user-name" value="" />
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<div id="result" class="result">
+			<div class="result__headline">
+				<h2></h2>
+			</div>
+		</div>
+		</div>
+		<div id="speech-canvas" class="speech-canvas"></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="speak.js"></script>
+	</body>
+</html>
