@@ -7,7 +7,7 @@ Storytelling by Children
 https://itp.nyu.edu/thesis2018/#/student/akmyrat-tuyliyev
 
 
-____________________________________________________________
+_
 
 ### Project details
 
