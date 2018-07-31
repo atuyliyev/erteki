@@ -265,6 +265,20 @@ function preload(){
 	//   resizeCanvas(displayWidth, displayHeight);
 	// }
 
+	function keyPressed() {
+	  if (keyCode === BACKSPACE) {
+		clear();
+		offsetY=0;
+		offsetX=0;
+	  }
+	}
+
+	function keyTyped() {
+	  if (key === 's') {
+	    saveCanvas();
+  	  }
+	}
+
 $(document).ready(function(){
 	function greet(userName){
 		$('#greeting').hide();
