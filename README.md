@@ -11,7 +11,7 @@ https://itp.nyu.edu/thesis2018/#/student/akmyrat-tuyliyev
 
 ### Project details
 
-Erteki is a Javascript project. The listening part is run by P5 Speech, which utilizes Web Speech API. The illustrations are supplied by drawings from the "Quick Draw", Google's large open-source data set of doodles. To amplify and diversify the linguistics of the project, the latest update includes a Thesaurus dataset of synonyms. To save the canvas, press *"S"*. To clear canvas, press *BACKSPACE*.
+Erteki is a Javascript project. The listening part is run by P5 Speech, which utilizes Web Speech API. The illustrations are supplied by drawings from the "Quick Draw", Google's large open-source data set of doodles. To amplify and diversify the linguistics of the project, the latest update includes a Thesaurus dataset of synonyms. To save the canvas, press *"S"*. To clear the canvas and start from the top, press *BACKSPACE*.
 
 Currently in the works: 
 - size differences and
